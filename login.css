@@ -1,0 +1,64 @@
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+  margin-top: 10%;
+  margin-left:25%;
+  margin-right: 25%
+}
+
+/* Full-width inputs*/
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-right: 1000px;
+  margin-top:5px;
+  margin-bottom:5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #FF6600;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 8px;
+  margin-right: 100%;
+  margin-left: 25%;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+/* Center the avatar image inside this container 24 0 12 */
+.imgcontainer {
+  text-align: center;
+  margin: 12px 0 6px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 30%;
+  border-radius: 90%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
