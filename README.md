@@ -1,2 +1,0 @@
-# IACUC
-IACUC Homepage
